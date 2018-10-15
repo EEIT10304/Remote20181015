@@ -58,7 +58,7 @@ public class ProductController {
 				errors.put("xxx3", "Make必須是符合YYYY-MM-DD格式的日期(FormBean)");
 			}
 			if(bindingResult.hasFieldErrors("expire")) {
-				errors.put("xxx4", "Expire必須是整數(FormBean)");
+				errors.put("xxx4", "Expire必須是整數數字(FormBean)");
 			}
 		}
 		
