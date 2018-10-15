@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.SessionAttributes;
 
 import model.CustomerBean;
 import model.CustomerService;
-
+//測試
 @Controller
 @SessionAttributes(names={"user"})
 public class LoginController {
