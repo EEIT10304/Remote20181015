@@ -1,3 +1,23 @@
+<<<<<<< HEAD
+/build/
+/.settings/
+/.project
+/.classpath
+/target/
+=======
+<<<<<<< HEAD
+/.settings/
+/.classpath
+/.project
+/target/
+=======
+<<<<<<< HEAD
+/.classpath
+/.project
+/.settings/
+/target/
+
+=======
 /.settings/
 <<<<<<< HEAD
 /target/
@@ -9,4 +29,9 @@
 /.project
 
 /target/
+>>>>>>> branch 'master' of https://github.com/EEIT10304/Remote20181015.git
+<<<<<<< HEAD
+=======
+>>>>>>> branch 'master' of https://github.com/EEIT10304/Remote20181015.git
+>>>>>>> branch 'master' of https://github.com/EEIT10304/Remote20181015.git
 >>>>>>> branch 'master' of https://github.com/EEIT10304/Remote20181015.git
