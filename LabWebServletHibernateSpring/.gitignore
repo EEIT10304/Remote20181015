@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /build/
 /.settings/
 /.project
@@ -42,4 +43,11 @@
 /.settings/
 /target/
 /.springBeans
+>>>>>>> branch 'master' of https://github.com/EEIT10304/Remote20181015.git
+=======
+/.settings/
+/.classpath
+/.project
+/pom.xml
+/target/
 >>>>>>> branch 'master' of https://github.com/EEIT10304/Remote20181015.git

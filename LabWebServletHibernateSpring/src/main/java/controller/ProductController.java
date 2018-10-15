@@ -38,6 +38,7 @@ public class ProductController {
 
 	@Autowired
 	private ProductService productService;
+<<<<<<< HEAD
 
 	@RequestMapping("/pages/product.controller")
 	public String method(ProductBean bean,
@@ -66,6 +67,31 @@ public class ProductController {
 
 				errors.put("xxx4", "Expire必須是整數(FormBean)");
 
+
+=======
+	
+	@RequestMapping("/pages/product.controller")
+	public String method(ProductBean bean,
+			BindingResult bindingResult, String prodaction, Model model, String id) {
+//接收資料
+//轉換資料
+		Map<String, String> errors = new HashMap<>();
+		model.addAttribute("errorMsgs", errors);
+
+		if(bindingResult!=null && bindingResult.hasFieldErrors()) {
+			if(bindingResult.hasFieldErrors("id")) {
+				errors.put("xxx1", "Id必須是整數(FormBean)");
+			}
+			if(bindingResult.hasFieldErrors("price")) {
+				errors.put("xxx2", "Price必須是數字(FormBean)");
+			}			
+			if(bindingResult.hasFieldErrors("make")) {
+				errors.put("xxx3", "Make必須是符合YYYY-MM-DD格式的日期(FormBean)");
+			}
+			if(bindingResult.hasFieldErrors("expire")) {
+				errors.put("xxx4", "Expire必須是整數(FormBean)");
+			}
+		}
 
 		
 //驗證資料
