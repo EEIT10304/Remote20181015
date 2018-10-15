@@ -13,10 +13,7 @@ import org.springframework.web.bind.annotation.SessionAttributes;
 
 import model.CustomerBean;
 import model.CustomerService;
-<<<<<<< HEAD
 
-=======
- branch 'master' of https://github.com/EEIT10304/Remote20181015.git
 @Controller
 @SessionAttributes(names={"user"})
 public class LoginController {
