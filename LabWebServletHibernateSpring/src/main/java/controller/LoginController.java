@@ -52,7 +52,7 @@ public class LoginController {
 			return "login.errors";
 		} else {
 			model.addAttribute("user", bean);
-			return "login.success";			
+			return "login.success";	 		
 		}
 	}
 }
