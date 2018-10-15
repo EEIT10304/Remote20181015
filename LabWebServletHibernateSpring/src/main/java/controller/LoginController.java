@@ -31,6 +31,7 @@ public class LoginController {
 		Map<String, String> errors = new HashMap<String, String>();
 
 
+
 @Controller
 @SessionAttributes(names={"user"})
 public class LoginController {
@@ -45,6 +46,7 @@ public class LoginController {
 //接收資料
 //驗證資料
 		Map<String, String> errors = new HashMap<String, String>();
+
 
 		model.addAttribute("errors", errors);
 		

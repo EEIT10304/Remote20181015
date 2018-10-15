@@ -38,7 +38,7 @@ public class ProductController {
 
 	@Autowired
 	private ProductService productService;
-	
+
 	@RequestMapping("/pages/product.controller")
 	public String method(ProductBean bean,
 			BindingResult bindingResult, String prodaction, Model model, String id) {
@@ -58,17 +58,15 @@ public class ProductController {
 				errors.put("xxx3", "Make必須是符合YYYY-MM-DD格式的日期(FormBean)");
 			}
 			if(bindingResult.hasFieldErrors("expire")) {
-<<<<<<< HEAD
+
 				errors.put("xxx4", "Expire必須是整數(FormBean)");
-=======
+
 
 				errors.put("xxx4", "Expire一定要是整數(FormBean)");
 
 				errors.put("xxx4", "Expire必須是整數(FormBean)");
 
->>>>>>> branch 'master' of https://github.com/EEIT10304/Remote20181015.git
-			}
-		}
+
 		
 //驗證資料
 		if("Insert".equals(prodaction) || "Update".equals(prodaction) || "Delete".equals(prodaction)) {
