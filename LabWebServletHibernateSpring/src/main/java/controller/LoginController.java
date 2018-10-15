@@ -22,12 +22,14 @@ public class LoginController {
 	
 	@Autowired
 	private ApplicationContext context;
-	
+	 
 	@RequestMapping("/secure/login.controller")
 	public String method(String username, String password, Model model, Locale locale) {
 //接收資料
 //驗證資料
 		Map<String, String> errors = new HashMap<String, String>();
+		
+		
 		model.addAttribute("errors", errors);
 		
 		if(username==null || username.length()==0) {
