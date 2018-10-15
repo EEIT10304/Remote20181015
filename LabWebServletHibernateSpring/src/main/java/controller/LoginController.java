@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.SessionAttributes;
 
 import model.CustomerBean;
 import model.CustomerService;
-<<<<<<< HEAD
 
 @Controller
 @SessionAttributes(names={"user"})
@@ -30,22 +29,7 @@ public class LoginController {
 //驗證資料
 		Map<String, String> errors = new HashMap<String, String>();
 		
-
-@Controller
-@SessionAttributes(names={"user"})
-public class LoginController {
-	@Autowired
-	private CustomerService customerService;
-	
-	@Autowired
-	private ApplicationContext context;
-	
-	@RequestMapping("/secure/login.controller")
-	public String method(String username, String password, Model model, Locale locale) {
-//接收資料
-//驗證資料
-		Map<String, String> errors = new HashMap<String, String>();
->>>>>>> branch 'master' of https://github.com/EEIT10304/Remote20181015.git
+		
 		model.addAttribute("errors", errors);
 		
 		if(username==null || username.length()==0) {
