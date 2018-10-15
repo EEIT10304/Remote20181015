@@ -1,5 +1,12 @@
 /.settings/
+<<<<<<< HEAD
 /target/
 /.project
 /.classpath
 /build/
+=======
+/.classpath
+/.project
+
+/target/
+>>>>>>> branch 'master' of https://github.com/EEIT10304/Remote20181015.git
