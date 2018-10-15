@@ -11,8 +11,8 @@ public class MyDispatcherServletInitializer extends AbstractAnnotationConfigDisp
 	@Override
 	protected Class<?>[] getServletConfigClasses() {
 		System.out.println("DispatcherServlet");
-		System.out.println("123");
-		System.out.println("321");
+		System.out.println("123");  
+		System.out.println("test");
 		
 		return new Class[] {SpringMvcJavaConfiguration.class};
 	}
